@@ -1,0 +1,8 @@
+replicaCount: 1
+
+backend:
+  image: jayoswal20/backend-app:latest
+  redisUri: redis://redis-svc:6379
+
+redis:
+  image: jayoswal20/redis:alpine
